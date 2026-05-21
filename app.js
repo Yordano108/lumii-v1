@@ -76,7 +76,6 @@ function acariciar() {
     actualizarInterfaz();
 }
 
-// Función para simular HOVER en dispositivos táctiles
 function applyTouchHover(selector, activeClass) {
     const elements = document.querySelectorAll(selector);
     elements.forEach((el) => {
@@ -96,7 +95,6 @@ function applyTouchHover(selector, activeClass) {
     });
 }
 
-// Aplicamos los efectos al cargar
 window.addEventListener("DOMContentLoaded", () => {
     applyTouchHover(".js-btn", "mobile-active-btn");
     applyTouchHover(".js-img", "mobile-active-img");
